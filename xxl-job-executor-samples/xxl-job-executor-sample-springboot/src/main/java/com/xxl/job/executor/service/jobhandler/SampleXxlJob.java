@@ -46,6 +46,13 @@ public class SampleXxlJob {
     }
 
 
+    @XxlJob("wksTestHandler")
+    public void wksTestHandler() throws Exception {
+        String param = XxlJobHelper.getJobParam();
+        System.out.println("wks--hahahaha: " + param);
+    }
+
+
     /**
      * 2、分片广播任务
      */
