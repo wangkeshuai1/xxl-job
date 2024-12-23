@@ -14,7 +14,7 @@ public class JacksonUtilTest {
     public void shouldWriteValueAsString() {
         //given
         Map<String, String> map = new HashMap<>();
-        map.put("aaa", "111");
+        map.put("aad", "111");
         map.put("bbb", "222");
 
         //when
